@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm &mdash; Inquiry Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Inquiry Form</h1>
+  </header>
+
+  <main class="container">
+    <h2 class="page-title">Please confirm your inquiry</h2>
+
+    <dl class="review-list" id="review-list">
+      <div class="review-row">
+        <dt>First Name</dt>
+        <dd data-field="firstName"></dd>
+      </div>
+      <div class="review-row">
+        <dt>Last Name</dt>
+        <dd data-field="lastName"></dd>
+      </div>
+      <div class="review-row">
+        <dt>Email</dt>
+        <dd data-field="email"></dd>
+      </div>
+      <div class="review-row">
+        <dt>Phone</dt>
+        <dd data-field="phone"></dd>
+      </div>
+      <div class="review-row">
+        <dt>Subject</dt>
+        <dd data-field="subject"></dd>
+      </div>
+      <div class="review-row">
+        <dt>Message</dt>
+        <dd data-field="message" class="prewrap"></dd>
+      </div>
+    </dl>
+
+    <div class="btn-group">
+      <a class="btn btn-secondary" href="index.html">Back</a>
+      <button type="button" class="btn btn-primary" id="send-btn">Send</button>
+    </div>
+  </main>
+
+  <script src="js/confirm.js"></script>
+</body>
+</html>
